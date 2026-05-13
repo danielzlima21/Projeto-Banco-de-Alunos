@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Painel de Alunos</h1>
+
+        <!--formulario de alunos-->
+        <input type="text" id="nome" placeholder="Nome do aluno">
+        <input type="number" id="nota1" placeholder="Nota 1">
+        <input type="number" id="nota2" placeholder="Nota 2">
+
+        <button onclick="adicionarAluno()">Adicionar aluno</button>
+
+        <hr>
+
+        <!--Lista de alunos-->
+        <div id="lista">
+            <button>Editar</button>
+            <button>Excluir</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
